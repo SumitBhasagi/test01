@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.menu-btn {
+  all: unset;
+  display: flex;
+  list-style: none;
+  gap: 36px;
+  font-weight: 500;
+  background-color: transparent;
+  color: black;
+}
+.login-btn {
+  all: unset;
+  padding: 8px 16px;
+  background: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh-82px);
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.hero h1 {
+  font-weight: 400;
+  font-size: 88px;
+}
+.hero p {
+  font-weight: 600;
+  color: rgb(77, 74, 74);
+  max-width: 400px;
+}
+.hero-btn {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+}
+.buttcat {
+  background-color: transparent;
+  color: black;
+  border: 2px solid rgb(128, 115, 115);
+}
+.buttshop {
+  border: 2px solid rgb(50, 46, 46);
+}
+.brand-icons {
+  display: flex;
+  gap: 30px;
+}
+.shopping {
+  font-size: 17px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
